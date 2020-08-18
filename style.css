@@ -1,0 +1,35 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 500px;
+    height: 300px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: black;
+}
+.button{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.button:active{
+    background-color: rgb(180, 180, 180);
+}
+.button:hover{
+    cursor: pointer;
+}
